@@ -118,21 +118,23 @@ body {
     }
   }
 
-.message {
-    display: none;
-    color: black;
-    font-size: 20px;
-    font-family: 'Ropa Sans';
-    margin-top: 10px;
-  }
+    .message {
+        display: none;
+        color: black;
+        font-size: 20px;
+        font-family: 'Ropa Sans';
+        margin-top: 10px;
+    }
   
   
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
     #informations {
+        margin-top: 38px;
+
         h1 {
             font-size: 60px;
-            margin-top: -20px;
+            
         }
         p {
             font-size: 56px;
